@@ -1,35 +1,116 @@
+/* GLOBAL RESET */
+* { box-sizng: border-box; }
+body { margin: 0; }
+
+/* GLOBAL COLORS */
+body { color: rgb(153, 98, 157) }
+a { color: rgb(217, 167, 217)}
+a:hover { color: rgb(217, 167, 217, 0.8); }
+
+/* GLOBAL TYPOGRAPGY */
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background: rgb(121, 46, 134);
-    margin: 0;
-    text-align: center;
+    font-size: 88.75; /* 14px */
+    line-hieght: 1.4;
+}
+
+/* HEADER */
+
+header { 
+    background-color: rgb(81, 44, 81); 
+    color: rgb(217, 167, 217, 0.8);
+    padding: 1em;
     display: grid;
-    align-content: center;
-    min-hieght: 100vh;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
-h1 {
-    font-size: 48px;
-    text-transform: uppercase;
-    text-align: center;
-    
+header a {
+    color:rgb(217, 167, 217, 0.8);
+    text-decoration: none;
 }
 
-h2 {
-    text-align: center;
+header a:hover {
+    color:rgb(217, 167, 217, 1);
 }
 
-p {
-    color: rgb(189, 132, 189);
-    max-width: 30em;
-    margin: 0 auto;
+/* SITE ID */
+.site-id {
+    margin: 0;
 }
 
-ul {
-    margin: 0 auto;
+/* SITE NAV */
+.site-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-a {
- color: rgb(216, 143, 202);   
+.site-nav a {
+    display: block;
+    padding: 1em;
+}
+
+/* MAIN */
+main {
+    background: rgb(217, 167, 217, .05);
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid rgb(217, 167, 217, .05);
+    padding: 1em;
+}
+
+/* SOCIAL NAV */
+.social-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-nav  a {
+    display: block;
+    padding: 1em;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color:rgb(81, 44, 81);
+    text-align: center;
+    color: rgb(217, 167, 217, 0.8);
+    padding: 6em 1em;
+}
+
+.hero h2 {
+    font-size: 6em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.hero p {
+    max-width: 30em;
+    margin: 1em auto;
+}
+
+/* COURSES SECTION */
+.courses {
+    padding: 6em 1em;
+    display: grid;
+    justify-content: center;
+}
+
+.courses ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.courses h3 {
+    text-align: center;
 }
