@@ -222,10 +222,10 @@ a {
   /* LAYOUT */
   
   /* SIMPLE RESET */
-{ box-sizing: border-box; }
+{box-sizing: border-box;}
 body {margin: 0;}
 
-//* CONTAINER */
+/* CONTAINER */
 .container {
   max-width: 1000px;
   margin: 0 auto;
