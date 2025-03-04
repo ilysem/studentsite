@@ -351,6 +351,9 @@ body {margin: 0;}
           }
 
           /* SITE STRUCTURE */
+          .container {
+
+          }          
 
           /* SITE HEADER */
          .site-header {
@@ -406,20 +409,31 @@ body {margin: 0;}
           .site-nav a {
             display: block;
             padding: 1em;
-          }
+        }
 
-          /* SITE MAIN */
-          .site-main {
-            background-color: rgba(0,255,0,.2);
-          }
+          /* SECTION */
+section {
+  padding: 3em 0;}
 
-          /* SITE FOOTER */
-          .site-footer {
-            background-color: rgba(0,0,255,.2);
-          }
-          
+/* HERO */
+.hero {
+  padding: 6em 4%;
+  background-color: rgb(0 0 0 /.1);
+  text-align: center;
+}
 
-          /* HERO */
-          .hero {
-            background-color: rgba( 255,255,0,)
-          }
+.hero h1, 
+.hero p {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* FOR DEV PURPOSES ONLY */
+/* body * {
+  background-color: rgba(0,0,0,.05);
+  border: 1px solid rgba(0,0,0,.1);
+  color: rgba(0,0,0,.5);
+} */
