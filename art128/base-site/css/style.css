@@ -373,63 +373,58 @@ body {margin: 0;}
           }
         
 
-          /* STYLING FOR BOTH HEADER AND FOOTER */
-          .site-header a,
-          .site-footer a {
-            color: rgba(0,0,0,.8);
-          }
-          .site-header a:hover,
-          .site-footer a:hover {
-            color: rgba(0,0,0,.1);
-            text-decoration: none;
-          }
-        
-          /* LOGO AREA */
-          .site-id h1 {
-            font-size: 1.5em;
-            margin: 0;
-            padding-top: 6em;
-            text-align: center;
-          
-          }
+         /* STYLING FOR BOTH HEADER AND FOOTER */
+.site-header a,
+.site-footer a {
+    color: rgba(0,0,0,1);
+}
+.site-header a:hover,
+.site-footer a:hover {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+}
 
-          /* SITE NAV */
-          .site-nav ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            display: flex;
-            justify-content: center;s
-          }
+/* LOGO AREA */
+.site-id h1 {
+    font-size: 1.5em;
+    margin: 0;
+    padding-top: .55em;
+    text-align: center;
+}
 
-          .site-nav li {
+/* SITE NAV */
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
 
-          }
+.site-nav a {
+    display: block;
+    padding: 1em;
+}
 
-          .site-nav a {
-            display: block;
-            padding: 1em;
-        }
-
-          /* SECTION */
+/* SECTIONS */
 section {
-  padding: 3em 0;}
+    padding: 3em 0;
+}
 
 /* HERO */
+
 .hero {
-  padding: 6em 4%;
-  background-color: rgb(0 0 0 /.1);
-  text-align: center;
-}
-
-.hero h1, 
-.hero p {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+    padding: 6em 1em;
+    background-color: rgba(0,0,0,.1);
+    text-align: center;
 }
 
 
+.hero h1, p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* FOR DEV PURPOSES ONLY */
 /* body * {
