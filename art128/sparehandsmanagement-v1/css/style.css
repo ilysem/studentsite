@@ -28,15 +28,19 @@
             #TOGGLE-NAV (Default for Small Screens)
 --------------------------------- */
 
-/* BASE TYPOGRAPHY */
+/* SET BODY TYPE */
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #333;
-  font-size: 87.5%;
+font-family: "brother-1816", sans-serif;
+font-weight: 400;
+font-style: normal;
   /* 14px; */
   line-height: 1.5;
   /* 14px x 1.5em = 21px */
 }
+/* SET HEADING TYPE */
+font-family: "brother-1816", sans-serif;
+font-weight: 700;
+font-style: normal;
 
 /* #HEADINGS
     Based on a Traditional Typographic Scale
@@ -395,6 +399,7 @@ body.demo::before {
 .site-header a,
 .site-footer a {
   color: rgba(0, 0, 0, 1);
+  background-color: #7e4f62;;
 }
 
 .site-header a:hover,
@@ -439,7 +444,7 @@ section {
 
 .hero {
   padding: 6em 1em;
-  background-color: rgba(0, 0, 0, .1);
+  background-color: #efc5bd;
   text-align: center;
 }
 
@@ -633,12 +638,15 @@ form input[type="submit"] {
 }
 
 #about {
-  background: rgba(0,0,0,0.05)
+  background: #7e4f62;
 }
 #contact {
-  background: rgba(0,0,0,0.1)
+  background: #7e4f62;
 }
 
+#services {
+  background:#efc5bd;
+}
 /* Vertical Media Query add height/padding to bottom of contact section only for lg screens- credit to Romina */
 
 @media (min-height: 600px) {
