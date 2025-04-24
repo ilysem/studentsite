@@ -421,6 +421,16 @@ text-decoration: none;
   text-align: left;
 }
 
+.logo {
+  max-width: 120px;
+  height: auto;
+}
+
+.site-id {
+  display: flex;
+  align-items: center;
+}
+
 /* SITE NAV */
 .site-nav ul {
   margin: 0;
@@ -454,12 +464,14 @@ section {
 }
 
 .hero-text h5 {
-  font-size: 28px;
+  font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
   font-family: "modern-love-caps", sans-serif;
   font-weight: 300;
   font-style: normal;
+  color:#7e4f62;
+  text-align: center;
 }
 .button.scroll {
   display: inline-block;
@@ -737,7 +749,7 @@ form input[type="submit"] {
   border-radius: 12px;
   text-align: left;
   flex: 1 1 250px;
-  max-width: 500px;
+  max-width: 350px;
   height: 400px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -749,9 +761,14 @@ form input[type="submit"] {
 }
 
 .contact-item .icon {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   margin-right: 15px;
+}
+
+.mouse {
+  position: absolute;
+  width: 500px;
 }
 
 /* SERVICE SECTION */
