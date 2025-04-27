@@ -402,7 +402,7 @@ body.demo::before {
 /* STYLING FOR BOTH HEADER AND FOOTER */
 .site-header a,
 .site-footer a {
-  color: rgba(0, 0, 0, 1);
+  color: white;
   background-color: #7e4f62;
   font-size: 0.875rem;
   position: relative;
@@ -418,20 +418,21 @@ text-decoration: none;
 
 /* LOGO AREA */
 .site-id h1 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin: 0;
   padding-top: .55em;
   text-align: left;
 }
 
 .logo {
-  max-width: 60px;
+  max-width: 50px;
   height: auto;
 }
 
 .site-id {
   display: flex;
   align-items: center;
+  gap: 1em;
 }
 
 /* SITE NAV */
@@ -466,6 +467,7 @@ section {
   padding: 6em 1em;
   background-color: #efc5bd;
   text-align: left;
+  padding-bottom: 2em;
 }
 
 .hero-text h5 {
@@ -487,8 +489,7 @@ section {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  position: center;
-  text-align: center;
+  margin-left: 200px; /* adjust this value as needed */
 }
 
 
@@ -748,9 +749,10 @@ form input[type="submit"] {
 
 #contact {
   background-color: #7e4f62;
-  color: #fff;
+  color: white;
   padding: 4em 2em;
   text-align: center;
+  position: relative; 
 }
 
 #contact p {
@@ -759,13 +761,6 @@ form input[type="submit"] {
   max-width: 700px;
   margin: 0 auto 2em;
   color: #fbe9f1;
-}
-
-#contact {
-  background-color: #6C4A57; 
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
 }
 
 .contact-container h2 {
@@ -805,7 +800,9 @@ form input[type="submit"] {
 
 .mouse {
   position: absolute;
+  right: 2;
   width: 500px;
+
 }
 
 /* SERVICE SECTION */
@@ -876,6 +873,6 @@ form input[type="submit"] {
 
 @media (min-height: 600px) {
   #contact {
-    padding-bottom: 20em;
+    padding-bottom: 4em;
   }
 }
