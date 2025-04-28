@@ -800,7 +800,7 @@ form input[type="submit"] {
 
 .mouse {
   position: absolute;
-  right: 2;
+  right: 2px;
   width: 500px;
 
 }
