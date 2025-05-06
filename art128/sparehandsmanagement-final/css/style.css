@@ -501,7 +501,7 @@ section {
 }
 
 .hero-text h5 {
-  font-size: 70px;
+  font-size: 85px;
   font-weight: bold;
   margin-bottom: 20px;
   font-family: "modern-love-caps", sans-serif;
@@ -826,6 +826,17 @@ form input[type="submit"] {
   margin-right: 15px;
 }
 
+#contact a {
+  color:#6d4b5c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 /* CONTACT BOX 2 */
 .contact-box-2 {
   background-color:#efc5bd;
@@ -848,6 +859,9 @@ form input[type="submit"] {
 
 /* SERVICE SECTION */
 
+#services h2 {
+  color: #7e4f62;
+}
 #services {
   background:#efc5bd; 
   text-align:center;
