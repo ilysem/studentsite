@@ -189,7 +189,59 @@ dt {
 dd {
     margin: 0;
 }
-
+/* COURSES SECTION - CARD STYLE */
+.courses {
+    padding: 6em 1em;
+    text-align: center;
+  }
+  
+  .courses h2 {
+    margin-bottom: 1em;
+    font-size: 2rem;
+    color: rgb(81, 44, 81);
+  }
+  
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2em;
+    max-width: 900px;
+    margin: 2em auto;
+  }
+  
+  /* Force 2x2 grid on larger screens */
+  @media (min-width: 768px) {
+    .course-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .course-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    padding: 2em 1.5em;
+    text-decoration: none;
+    color: #444;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+  }
+  
+  .course-card h3 {
+    margin: 0 0 0.5em;
+    font-size: 1.25rem;
+    color: rgb(81, 44, 81);
+  }
+  
+  .course-card p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #666;
+  }
 /* FOR DEV PURPOSES */
 /* body * {
     background-color: rgba(0,0,0,.05) !important;
