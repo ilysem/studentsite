@@ -1,0 +1,66 @@
+/* ------------------------
+
+TABLE OF CONTECT
+
+
+
+
+
+
+
+
+----------------------------*/
+
+/* RESET */
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+/* RESPONSIVE IMAGES */
+img {
+    max-width: 100%;
+    height: autol
+  }
+
+/* SITE STRUCTURE */
+header {
+    background-color: yellow;
+    padding: 1em;
+  }
+  
+  
+  main {
+    background-color: pink;
+  }
+  
+  footer {
+    background-color: cyan;
+  }
+  
+  .hero {
+    padding: 6em 1em;
+    background-color: aquamarine;
+  }
+  
+  section {
+    padding: 3em 1em;
+  }
+
+  /* MAIN IMAGE GRID */
+.main-image-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    gap: 1em;
+      
+  }
+
+
+
+
+
+
+
+
